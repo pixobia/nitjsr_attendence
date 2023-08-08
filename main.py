@@ -12,8 +12,8 @@ import numpy as np
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred,{
-    'databaseURL':"https://nitjsr-faceattedence-default-rtdb.firebaseio.com/",
-    'storageBucket':"nitjsr-faceattedence.appspot.com"
+    'databaseURL':"",
+    'storageBucket':""
 })
 
 bucket = storage.bucket()
